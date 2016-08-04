@@ -1,0 +1,21 @@
+download folder
+git clone "git repos folder path"
+git remote add <alias name> "git repos folder path"
+
+merge all repo
+git add .
+
+status
+git status
+
+git commit
+git commit -m "message"
+
+git push
+git push <alias name> // gir remote add time//
+
+
+
+
+
+
