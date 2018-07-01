@@ -1,4 +1,4 @@
-
+hardeep master new branch
 <?php
 define("ENCRYPTION_KEY", "painter_locator_encryption_key");
 $string = generate_random_string();
