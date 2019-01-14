@@ -2,7 +2,7 @@
 <?php
 define("ENCRYPTION_KEY", "painter_locator_encryption_key");
 $string = generate_random_string();
-echo $encrypted = encrypt($string, ENCRYPTION_KEY);
+echo $encrypted = encrypt($string, ENCRYPTION_KEY);   
 echo "<br />";
 echo $decrypted = decrypt($encrypted, ENCRYPTION_KEY);
 /**
